@@ -1,0 +1,169 @@
+Een nieuw gerecht maken.
+Een gerecht laden.
+Een gerecht bewaren.
+De naam van een gerecht wijzigen.
+Een gerecht verwijderen.
+Kosten van een gerecht berekenen.
+Een berekening uitvoeren.
+Producten invoeren.
+Gebruikte meeteenheden voor hoeveelheden.
+Een meeteenheid instellen.
+Backup van gegevens maken/terug zetten.
+Printerinstellingen.
+Maximale waardes en lengtes.
+Foutmeldingen.
+
+-_*Een nieuw gerecht maken:_*
+
+ Klik op de knop "Nieuw Gerecht" in het menuvenster. Het
+ eerste lege vak in de gerechtenlijst zal worden geselecteerd
+ om het nieuwe gerecht in te bewaren.
+
+ Er kunnen in totaal honderd verschillende gerechten worden bewaard.
+
+ Wanneer de Keuken Calculator gestart wordt, krijgt het nieuwe gerecht
+ automatisch een nummer toegewezen.
+
+-_*Een gerecht laden:_*
+
+ Klik op de knop "Laad Gerecht" in het venster "Menu" om het
+ "Laad Gerecht" venster te openen. Selecteer een gerecht uit
+ de lijst. Klik op de knop "Kies Gerecht" om het geselecteerde
+ gerecht te laden.
+
+ In het vak onder "Datum" wordt de datum waarop het
+ geselecteerde gerecht bewaard is getoond.
+
+-_*Een gerecht bewaren:_*
+
+ Klik op de knop "Bewaar Gerecht" in het venster "Menu" om een
+ gerecht te bewaren onder de in het menuvenster opgegeven naam .
+
+ De gegevens worden per gerecht in de map ".\\Data" bewaard
+ in een bestand met de naam "Gerecht/nummer/.kcc".
+
+ De producten en prijzen worden wanneer het programma wordt
+ afgesloten in het bestand "Producten.kcc" bewaard.
+ Personeelslonen worden in "Personeel.kcc" bewaard.
+ Alle andere gegevens worden per gerecht apart bewaard.
+
+ - Al deze bestanden bevinden zich in de datamap ".\\Data".
+
+-_*De naam van een gerecht wijzigen:_*
+
+ Klik op het vak onder in het venster "Menu" en om een naam voor
+ het gerecht in te voeren. De naam mag maximaal 255 tekens lang zijn.
+
+-_*Een gerecht verwijderen:_*
+
+ Klik op de knop "Verwijder Gerecht" in het venster "Menu" om het
+ venster "Gerecht Verwijderen" te openen. Selecteer een gerecht uit
+ de lijst. Klik op de knop "Verwijder Gerecht" om het gekozen
+ gerecht te verwijderen.
+
+ In het vak onder "Datum" wordt de datum waarop het
+ geselecteerde gerecht bewaard is getoond.
+
+-_*Kosten van een gerecht berekenen:_*
+
+ Klik op de knop "Bereken Kosten" om de totale  kosten van een gerecht te
+ berekenen. De totaal prijzen van alle categorie\EBn worden dan bij
+ elkaar opgeteld. De resultaten worden in het venster "Kosten" getoond.
+
+-_*Een berekening uitvoeren:_*
+
+ Klik op een veld waar een prijs//hoeveelheid//percentage ingevoerd kan
+ worden om een waarde in te voeren. Maak de invoer definitief door
+ het veld te verlaten. Eventuele andere waardes zullen dan worden
+ bijgewerkt.
+
+ Alle bedragen worden op twee cijfers achter de komma afgerond.
+
+ *Let op:*
+ - Komma's worden bij invoer automatisch vervangen met een punt.
+ - Bedragen worden met een punt in plaats van een komma getoond.
+
+-_*Producten invoeren:_*
+
+ Klik op een veld waar producten ingevoerd kunnen worden en selecteer
+ een veld uit de lijst voor het product. Gebruik de cursortoetsen
+ om een product in de lijst te selecteren. De lijst van producten
+ kan getoond worden door op de knop rechts van het geselecteerde
+ veld te klikken.
+
+ Wanneer de eerste optie waarin "geen" getoond wordt is geselecteerd
+ is er geen invoer mogelijk.
+
+-_*Gebruikte meeteenheden voor hoeveelheden:_*
+
+ Hier is een tabel met de gebruikte meeteenheden voor iedere categorie:
+
+  _categorie:_		_prijs per:_	_hoeveelheid:_
+  vlees		kg//st	gr//st
+  vis		kg//st	gr//st
+  groenten		kg//st	gr//st
+  meelspijzen		kg//st	gr//st
+  soepen//sauzen	l	dl
+  bijproducten		kg//st	gr//st
+  doorverkoopproducten	kg//st	gr//st
+  buffet		kg//st//l	gr//st//dl
+  bittergarnituur	kg//st	gr//st
+  tafelgarnituur		kg//st	gr//st
+
+  dl = deciliters, gr = grammen, kg = kilo's, l = liters, st = stuks
+
+-_*Een meeteenheid instellen:_*
+ 
+ Dubbelklik op een veld waarin de prijs wordt ingevoerd en selecteer
+ een meeteenheid. De meeteenheden kunnen per productveld ingesteld
+ worden.
+
+-_*Backup van gegevens maken//terug zetten:_*
+
+ _Een backup maken:_
+ Klik op "Backup" om het venster "Backup" te openen. Voer een locatie
+ in voor de backup in het veld "Backuplocatie" en klik dan op de
+ knop "Maak Backup".
+
+ _Een backup terug zetten:_
+ Klik op "Backup" om het venster "Backup" te openen. Voer de backuplocatie
+ in het veld "Backuplocatie". Klik dan op de knop "Zet Backup Terug".
+
+ De backuplocatie wordt in het bestand "Backup.loc" bewaard.
+
+ *Let op:*
+ Eventuele eerdere backups op de geselecteerde backuplocatie worden
+ zonder waarschuwing overschreven.
+
+-*_Printerinstellingen:*_
+
+ Open het "Printen" menu in het hoofdvenster en selecteer "Printerinstellingen".
+ In het "Printerinstellingen" venster kunnen het lettertype en de bijbehorende
+ eigenschappen (cursief//formaat//onderstreept//vet) geselecteerd worden. In het
+ voorbeeld venster wordt getoond hoe de geselecteerde instellingen eruit zien.
+
+ De printerinstellingen worden in het bestand "Printer.kcc" bewaard.
+
+-*_Maximale waardes en lengtes.*_
+  
+  - Maximum gerechtnaam lengte: 255 tekens.
+
+  - Maximum productnaam lengte: 255 tekens.
+  - Maximum prijs: 1000.00
+  - Maximum producthoeveelheid: 10000
+  - Maximum percentage: 100%
+
+  - Maximum loon: 1000.00
+  - Maximum tijd: 1440 minuten. (24 uur)
+
+-*_Foutmeldingen:*_
+
+ Bij een foutmelding verschijnt kunnen de volgende opties worden geselecteerd:
+
+  Afbreken	Het programma wordt afgesloten. De producten en de prijzen worden
+ 	dan niet automatisch bewaard.
+  Nogmaals	Proberen de handeling die de fout veroorzaakte nog
+  	een keer uit te voeren.
+  Negeren	De fout wordt genegeerd. Het kan voorkomen dat een
+  	fout niet genegeerd kan worden. De handeling die de fout
+  	veroorzaakte wordt dan afgebroken.
